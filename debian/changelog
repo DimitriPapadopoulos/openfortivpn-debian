@@ -1,0 +1,5 @@
+openfortivpn (1.2.0-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #848138)
+
+ -- Dimitri Papadopoulos Orfanos <dimitri.papadopoulos@gmail.com>  Tue, 17 Jan 2017 23:26:19 +0100

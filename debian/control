@@ -1,0 +1,17 @@
+Source: openfortivpn
+Section: net
+Priority: optional
+Maintainer: Dimitri Papadopoulos Orfanos <dimitri.papadopoulos@gmail.com>
+Build-Depends: debhelper (>=9), libssl-dev, dh-autoreconf 
+Standards-Version: 3.9.7
+Homepage: https://github.com/adrienverge/openfortivpn
+Vcs-Git: https://github.com/DimitriPapadopoulos/openfortivpn-debian.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/openfortivpn.git
+
+Package: openfortivpn
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Fortinet SSL VPN client
+ openfortivpn is a client for PPP+SSL VPN tunnel services. It spawns a
+ pppd process and operates the communication between a FortiGate gateway
+ and this process.
